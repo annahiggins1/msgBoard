@@ -1,0 +1,14 @@
+.add-post-container {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    margin-right: 5px;
+  }
+  
+  .add-post-button {
+    width: 50px;
+    margin-left: 5px;
+    height: 50px;
+    background-color: rgb(239, 239, 255);
+    border: 1px solid rgb(170, 170, 255);
+  }
