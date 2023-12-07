@@ -1,40 +1,18 @@
-.App {
-  text-align: center;
+:root {
+  --background: white;
+  --text-primary: black;
+  --post-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+[data-theme='dark'] {
+  --background: rgb(46, 39, 47);;
+  --text-primary: white; 
+  --post-color: rgb(56, 63, 116);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  margin: 0;
+  background-color: var(--background);
 }
 
 .app-container {
@@ -42,8 +20,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100vh;
-  padding-top: 100px;
+  padding-top: 40px;
+  background-color: var(--background); 
+}
+
+.aside {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .centered-container {
@@ -52,4 +36,18 @@
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 20px;
+}
+
+.header {
+  color: var(--text-primary);
+}
+
+.light-dark-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
 }
