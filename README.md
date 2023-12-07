@@ -9,6 +9,7 @@ Key Components:
 - Backend: The messages are stored in supabase database. This allows for multiple 
 devices to upload to the message board, and be able to see the past messages from 
 any users.
+- ThemeButton.js: Allows for the theme to be switched to and from light mode and dark mode.
 
 Quick Start:
 1. Make sure npm (in terminal: npm install) and Node.js (download from online) are installed
