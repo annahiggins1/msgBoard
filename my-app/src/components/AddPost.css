@@ -1,0 +1,27 @@
+.add-post-container {
+    margin-right: 5px;
+    word-wrap: break-word;
+    word-break: break-all;
+    text-align: left;
+    width: 600px;
+    height: 75px;
+    vertical-align: top;
+    resize: none;
+  }
+  
+  .add-post-button {
+    width: 80px;
+    margin-left: 5px;
+    height: 80px;
+    background-color:white;
+    border: 1px solid black;
+    background-size: cover;
+  }
+
+  .message-length {
+    color: rgb(132, 132, 132);
+  }
+  
+  .message-length.error {
+    color: red;
+  }
