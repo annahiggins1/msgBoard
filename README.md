@@ -3,11 +3,12 @@ Basic message board
 
 
 Key Components:
-App.js: Combines all the functionality together
-Posts.js: Displays all of the past messages
-AddPost.js: Functionality to add a post to the message board
-Backend: The messages are stored in supabase database. This allows for multiple devices
-to upload to the message board, and be able to see the past messages from any users.
+- App.js: Combines all the functionality together
+- Posts.js: Displays all of the past messages
+- AddPost.js: Functionality to add a post to the message board
+- Backend: The messages are stored in supabase database. This allows for multiple 
+devices to upload to the message board, and be able to see the past messages from 
+any users.
 
 Quick Start:
 1. Make sure npm (in terminal: npm install) and Node.js (download from online) are installed
