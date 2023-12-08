@@ -45,7 +45,6 @@ function App() {
       <div className="centered-container">
         <Posts
           messages={msgs}
-          getMessages={getMsgs}
         />
       </div>
     </div>

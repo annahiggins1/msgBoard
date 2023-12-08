@@ -1,7 +1,8 @@
 import React from "react";
 import "./Posts.css";
 
-export default function Posts({ messages, getMessages }) {
+//renders all of the previously posted posts
+export default function Posts({ messages }) {
   //sorts the messages by time
   const sortedMessages = messages.sort((a, b) => {
     return new Date(b.created_at) - new Date(a.created_at);
