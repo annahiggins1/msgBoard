@@ -47,9 +47,11 @@ async function addMsg(message, setMessage) {
   try {
     const { data, error } = await supabase
       .from("Messages")
+      //inserts the message
       .insert([{ message: message }])
       .single();
     if (error) throw error;
+    //sets the message to empty and reloads the page
     setMessage("");
     window.location.reload();
   } catch (error) {
